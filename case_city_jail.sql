@@ -102,7 +102,7 @@ ALTER TABLE crimes
 ADD (date_recorded DATE DEFAULT SYSDATE);
 
 
-ALTER prob_officers
+ALTER TABLE prob_officers
 ADD (pager# NUMBER(10));
 
 
